@@ -1,0 +1,20 @@
+1.实习要求
+2.环境配置
+3.算法实现
+	3.1 图像处理
+	3.2 Kmean函数
+	3.3 主函数编写
+4.成果展示与检验
+5.算法不足与优化
+6.总结（遇到的问题与解决办法）
+	6.1 jdk安装失败命令行无反馈
+
+
+技术问题1：SparkSession toDF会报错
+只能 Sparkcontext 再 SparkSession
+
+更改pixel_value 原始数据已经被改写为特征向量的表格式，只能重新读入一个dataframe再合并
+
+算法优化？
+1.downsample降采样
+2.
